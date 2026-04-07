@@ -25,7 +25,7 @@ Original file is located at
 # st.title("AI Dynamic Pricing Simulator")
 # 
 # # API KEY
-# client = OpenAI(api_key="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")
+# client = OpenAI(api_key="")
 # 
 # # SIDEBAR
 # demand = st.sidebar.slider("Demand", 1, 100, 60)
@@ -116,7 +116,7 @@ import time
 
 # Replace 'YOUR_AUTHTOKEN' with your actual ngrok authtoken
 # You can get one from your ngrok dashboard: https://dashboard.ngrok.com/get-started/your-authtoken
-ngrok.set_auth_token("3BwpEVJbhdWZRuaWGtiIwHhhJXB_7ABXcJkgz6rCREMwq6iYp")
+ngrok.set_auth_token("")
 
 # Start streamlit
 process = subprocess.Popen(["streamlit", "run", "app.py"])
