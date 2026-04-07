@@ -14,7 +14,6 @@ st.set_page_config(page_title="AI Dynamic Pricing Dashboard", layout="wide")
 st.title("AI Dynamic Pricing Simulator")
 
 # ---------------- API KEY ----------------
-client = OpenAI(api_key="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")
 
 # ---------------- SIDEBAR ----------------
 demand = st.sidebar.slider("Demand", 1, 100, 60)
